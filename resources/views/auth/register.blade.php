@@ -1,4 +1,3 @@
-{{-- {{ dd(session()->all()) }} --}}
 <!DOCTYPE html>
 <html>
 
@@ -39,8 +38,8 @@
     style="background-image: url('{{ asset('storage/img/bg-1.jpg') }}');background-size:100%;">
     <div class="login-box">
         <div class="login-logo">
-            {{-- <a href="{{ url('/home') }}"><b>{{ config('app.name') }} Admin</b></a> --}}
-            {{-- <img src="{{ asset('storage/img/login.png') }}" alt="User Image" style="width:80px;height:80px;"> --}}
+            <a href="{{ url('/home') }}"><b>{{ config('app.name') }} Admin</b></a>
+            <img src="{{ asset('storage/img/user.png') }}" alt="User Image" style="width:80px;height:80px;">
         </div>
 
         <!-- /.login-logo -->
