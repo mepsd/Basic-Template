@@ -11,7 +11,7 @@ composer install
 
 For setting up database and intial user
 ```
-php artisan app::install
+php artisan app:install
 ```
 ## License
 
