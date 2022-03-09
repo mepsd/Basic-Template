@@ -63,6 +63,12 @@ class AppInstall extends Command
                 $this->error('Please ensure your database credentials are valid.');
             }
         }
+        if($this->confirm('Do you want to clear database? [y|N]')) {
+            $this->call('migrate:fresh');
+
+        }else{
+            $this->call('migrate');
+        }
         if($this->confirm('Do you want to setup intial user? [y|N]')) {
             $this->askForUser();
         }
