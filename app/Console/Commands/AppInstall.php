@@ -42,7 +42,7 @@ class AppInstall extends Command
      */
     public function handle()
     {
-        $this->alert('Hello Neha, Hope you\'re doing well.\n');
+        $this->alert('Hello Neha, Hope you\'re doing well.');
         $this->alert('Please follow the instructions below to install the application.');
 
         $connected = false;
